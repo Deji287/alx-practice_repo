@@ -2,13 +2,13 @@
 
 /**
 *print_alphabet - Prints the alphabet in lowercase
-*Return: 0 0n success
+*Return: Nothing.
 */
 void print_alphabet(void)
 {
 	int c;
 
-	for (c = 'a'; c >= 'z'; c++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
 		_putchar(c);
 	}
